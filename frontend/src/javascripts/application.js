@@ -64,8 +64,8 @@ const HomeComponent = {
                                     }
                                 }
                             }),
-                            modal: true,
-                            backdrop: true
+                            // modal: true,
+                            // backdrop: true
                         };
                         dialog.show(dialogOptions)
                     }
