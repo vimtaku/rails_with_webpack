@@ -1,7 +1,7 @@
 {
-  "name": "chat",
+  "name": "soba",
   "version": "1.0.0",
-  "description": "frontend of chat repository",
+  "description": "frontend of books repository",
   "main": "index.js",
   "scripts": {
     "release": "webpack --config config/production/webpack.config.js",
@@ -9,7 +9,7 @@
     "watch": "webpack --watch --config config/development/webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "necojackarc",
+  "author": "vimtaku",
   "license": "MIT",
   "devDependencies": {
     "babel": "^6.1.18",
@@ -23,5 +23,9 @@
   "dependencies": {
     "react": "^0.14.3",
     "react-dom": "^0.14.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vimtaku/rails_with_webpack.git"
   }
 }
